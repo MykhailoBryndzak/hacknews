@@ -1,0 +1,29 @@
+.app-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.story-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: darkcyan 1px solid;
+    border-radius: 4px;
+    background: lightcyan;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.story-item {
+    margin: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 16px;
+}
+
+.story-item.title {
+    font-weight: bold;
+}
